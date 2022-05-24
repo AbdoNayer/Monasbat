@@ -1475,8 +1475,30 @@ textarea:-moz-placeholder { /* Firefox 18- */
         margin: 0;
     }
 
+    .section-footer{
+        width: 100%;
+    }
 
+    .block-footer{
+        flex-wrap: wrap;
+    }
 
+    .block-list {
+        flex-basis: 100%;
+    }
+
+    .block-footer .block-list ul {
+        margin-bottom: 30px;
+    }
+
+    .block-item{
+        position: relative;
+        top: 0 !important;
+        right: 0 !important;
+        left: 0 !important;
+        transform: initial !important;
+        margin: 10px auto;
+    }
 
 
 }
