@@ -11,23 +11,23 @@ body {
     float: left;
 }
 
-.dismiss_model{
+.dismiss-model{
     left: 20px;
 }
 
-.show_password {
+.show-password {
     left: 20px;
 }
 
-.block_list ul li{
+.block-list ul li{
     text-align: right;
 }
 
-.block_footer .block_list ul{
+.block-footer .block-list ul{
     border-left: 1px solid #ffe0e9;
 }
 
-.info_text {
+.info-text {
     padding-right: 105px;
 }
 
@@ -51,12 +51,12 @@ body {
         transform: translateX(-100%);
     }
 
-    .Nav_Mobile{
+    .Nav-Mobile{
         right: 0;
         transform: translateX(100%);
     }
 
-    .link_header ul li {
+    .link-header ul li {
         text-align: right;
     }
 

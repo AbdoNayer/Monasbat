@@ -92,9 +92,9 @@
 
 .tilter__title {
 	margin: 0;
-	font-weight: normal;
-	font-size: 18px;
-	line-height: 40px;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 30px;
 	color: #fff;
 	/*background: -webkit-linear-gradient(left, #f089a6 0%,#ffffff 100%);*/
 	/*-webkit-background-clip: text;*/
@@ -102,7 +102,7 @@
 }
 
 .tilter__description {
-	margin: 14px 0;
+	margin: 10px 0;
 	font-size: 13px;
 	letter-spacing: 1px;
 	line-height: 25px;
