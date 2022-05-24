@@ -40,6 +40,12 @@
 </head>
 <body>
 
+    <!-- Start Loading Page -->
+
+    <div class="loader">
+        <img src="./img/logo/logo.png" alt="">
+    </div>
+
     <!-- Start Last-Header -->
     <div class="Tab_mobile">
         <ul class="shadow_gray">
@@ -62,46 +68,59 @@
         </ul>
     </div>
 
-    <!-- Start bg-Header -->
-    <div class="header">
-        <div class="container">
-            <div class="click_nav_mobile block_mobile">
-                <div id="nav-icon3">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-                <a href=""><img src="img/logo/logo.png"></a>
-            </div>
-            <div class="link_header Nav_Mobile">
-                <img src="img/shape/deser.png" class="deser block_mobile">
-                <div class="block_user block_mobile">
-                    <img src="img/shape/balown.png" class="balown">
-                    <div class="info_user">
-                        <div class="img_user">
-                            <img src="img/bg-image/bg.png" class="circle_img">
-                        </div>
-                        <span>شعوذه</span>
+    <div class="block-head mb-5">
+
+        <!-- Start bg-Header -->
+        <div class="header">
+            <div class="container">
+                <div class="click_nav_mobile block_mobile">
+                    <div id="nav-icon3">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
                     </div>
+                    <a href=""><img src="img/logo/logo.png"></a>
                 </div>
-                <ul>
-                    <li class="logo_header"><a href=""><img src="img/logo/logo.png"></a></li>
-                    <li><a href="index.html">الرئيسيه</a></li>
-                    <li><a href="about.html">عن الموقع</a></li>
-                    <li><a href="">الخدمات</a></li>
-                    <li><a href="">تطبيق الجوال</a></li>
-                    <li><a href="">تواصل معنا</a></li>
-                    <li><a href="">المزيد</a></li>
-                    <li class="click_share block_mobile"><a>مشاركه التطبيق</a></li>
-                    <li><a class="login btn_click btn_pink color_white" data-bs-toggle="modal" data-bs-target="#login">تسجيل دخول</a></li>
-                    <li class="click_search none_mobile"><a data-bs-toggle="modal" data-bs-target="#search"><i class="fas fa-search"></i></a></li>
-                </ul>
+                <div class="link_header Nav_Mobile">
+                    <ul>
+                        <li class="logo_header" data-aos="zoom-in" data-aos-offset="200"><a href=""><img src="img/logo/logo.png"></a></li>
+                        <li><a href="index.html">الرئيسيه</a></li>
+                        <li><a href="about.html">عن الموقع</a></li>
+                        <li><a href="">الخدمات</a></li>
+                        <li><a href="">تطبيق الجوال</a></li>
+                        <li><a href="">تواصل معنا</a></li>
+                        <li class="click_share block_mobile"><a>مشاركه التطبيق</a></li>
+                        <li><a class="login btn_click btn_pink color_white" data-bs-toggle="modal" data-bs-target="#login">تسجيل دخول</a></li>
+                        <li class="click_search none_mobile"><a data-bs-toggle="modal" data-bs-target="#search"><i class="fas fa-search"></i></a></li>
+                    </ul>
+                </div>
             </div>
         </div>
+
+        <!-- Start Section Info -->
+        <div class="info_site none_mobile">
+            <div class="info_up">
+                <div class="info_text" data-aos="fade-up" data-aos-offset="200">
+                    <h2>اهلا بكم ف مناسبات</h2>
+                    <p class="font_normal">
+                        هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. 
+                        هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. 
+                    </p>
+                    <a href="" class="btn_button border_pink color_pink shadow_pink_opacity margin_top_40">مشاهدة المزيد</a>
+                </div>
+                <div class="bg_info">
+                    <img src="img/shape/tree_4.png" class="tree_4">
+                    <div class="img_info">
+                        <img src="img/bg-image/bg.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 
-    <!-- Start Share App -->
+    <!-- Start Share App On Mobile -->
     <div class="share_app shadow_pink none">
         <ul class="social_page">
             <li><a href=""><img src="img/shape/facebook.png"></a></li>
@@ -386,39 +405,20 @@
         </div>
     </div>
 
-    <!-- Start Section Info -->
-    <div class="info_site none_mobile">
-        <div class="info_up">
-            <div class="info_text">
-                <h2>نص عربي</h2>
-                <p class="font_normal">هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. </p>
-                <a href="" class="btn_button border_pink color_pink shadow_pink_opacity margin_top_40">مشاهدة المزيد</a>
-            </div>
-            <div class="bg_info">
-                <img src="img/shape/tree_4.png" class="tree_4">
-                <div class="img_info">
-                    <img src="img/bg-image/bg.png">
-                </div>
-            </div>
-        </div>
-    </div>
-
     <!-- Start Body-Section -->
     <div class="body_section Body_Home">
         <div class="container">
-            <!-- Start Body_Home -->
-
 
             <!-- Start Body Service -->
-            <div class="body_service">
+            <div class="body_service mt-5">
                 <img src="img/shape/round_flower_1.png" alt="" class="flower round_flower_1">
                 <img src="img/shape/round_flower_1.png" alt="" class="flower round_flower_2">
                 <img src="img/shape/round_flower_1.png" alt="" class="flower round_flower_3">
                 <h4 class="title_head">الآقسام</h4>
-                <div class="up_service">
-                    <div class="row">
+                <div class="up_service mt-5 py-5">
+                    <div class="row pt-3">
                         <div class="col-md-4 col-xs-6">
-                            <section class="content content--c1">
+                            <section class="content content--c1" data-aos="zoom-in" data-aos-offset="200">
                                 <main>
                                     <a href="#" class="tilter tilter--1">
                                         <figure class="tilter__figure">
@@ -438,7 +438,7 @@
                             </section>
                         </div>
                         <div class="col-md-4 col-xs-6">
-                            <section class="content content--c1">
+                            <section class="content content--c1" data-aos="zoom-in" data-aos-offset="200">
                                 <main>
                                     <a href="#" class="tilter tilter--1">
                                         <figure class="tilter__figure">
@@ -458,7 +458,7 @@
                             </section>
                         </div>
                         <div class="col-md-4 col-xs-6">
-                            <section class="content content--c1">
+                            <section class="content content--c1" data-aos="zoom-in" data-aos-offset="200">
                                 <main>
                                     <a href="#" class="tilter tilter--1">
                                         <figure class="tilter__figure">
@@ -478,7 +478,7 @@
                             </section>
                         </div>
                         <div class="col-md-4 col-xs-6">
-                            <section class="content content--c1">
+                            <section class="content content--c1" data-aos="zoom-in" data-aos-offset="200">
                                 <main>
                                     <a href="#" class="tilter tilter--1">
                                         <figure class="tilter__figure">
@@ -498,7 +498,7 @@
                             </section>
                         </div>
                         <div class="col-md-4 col-xs-6">
-                            <section class="content content--c1">
+                            <section class="content content--c1" data-aos="zoom-in" data-aos-offset="200">
                                 <main>
                                     <a href="#" class="tilter tilter--1">
                                         <figure class="tilter__figure">
@@ -518,7 +518,7 @@
                             </section>
                         </div>
                         <div class="col-md-4 col-xs-6">
-                            <section class="content content--c1">
+                            <section class="content content--c1" data-aos="zoom-in" data-aos-offset="200">
                                 <main>
                                     <a href="#" class="tilter tilter--1">
                                         <figure class="tilter__figure">
@@ -538,7 +538,7 @@
                             </section>
                         </div>
                         <div class="col-md-4 col-xs-6">
-                            <section class="content content--c1">
+                            <section class="content content--c1" data-aos="zoom-in" data-aos-offset="200">
                                 <main>
                                     <a href="#" class="tilter tilter--1">
                                         <figure class="tilter__figure">
@@ -558,7 +558,7 @@
                             </section>
                         </div>
                         <div class="col-md-4 col-xs-6">
-                            <section class="content content--c1">
+                            <section class="content content--c1" data-aos="zoom-in" data-aos-offset="200">
                                 <main>
                                     <a href="#" class="tilter tilter--1">
                                         <figure class="tilter__figure">
@@ -578,7 +578,7 @@
                             </section>
                         </div>
                         <div class="col-md-4 col-xs-6">
-                            <section class="content content--c1">
+                            <section class="content content--c1" data-aos="zoom-in" data-aos-offset="200">
                                 <main>
                                     <a href="#" class="tilter tilter--1">
                                         <figure class="tilter__figure">
@@ -598,7 +598,7 @@
                             </section>
                         </div>
                         <div class="col-md-4 col-xs-6">
-                            <section class="content content--c1">
+                            <section class="content content--c1" data-aos="zoom-in" data-aos-offset="200">
                                 <main>
                                     <a href="#" class="tilter tilter--1">
                                         <figure class="tilter__figure">
@@ -618,7 +618,7 @@
                             </section>
                         </div>
                         <div class="col-md-4 col-xs-6">
-                            <section class="content content--c1">
+                            <section class="content content--c1" data-aos="zoom-in" data-aos-offset="200">
                                 <main>
                                     <a href="#" class="tilter tilter--1">
                                         <figure class="tilter__figure">
@@ -638,7 +638,7 @@
                             </section>
                         </div>
                         <div class="col-md-4 col-xs-6">
-                            <section class="content content--c1">
+                            <section class="content content--c1" data-aos="zoom-in" data-aos-offset="200">
                                 <main>
                                     <a href="#" class="tilter tilter--1">
                                         <figure class="tilter__figure">
@@ -658,7 +658,7 @@
                             </section>
                         </div>
                         <div class="col-md-4 col-xs-6">
-                            <section class="content content--c1">
+                            <section class="content content--c1" data-aos="zoom-in" data-aos-offset="200">
                                 <main>
                                     <a href="#" class="tilter tilter--1">
                                         <figure class="tilter__figure">
@@ -678,7 +678,7 @@
                             </section>
                         </div>
                         <div class="col-md-4 col-xs-6">
-                            <section class="content content--c1">
+                            <section class="content content--c1" data-aos="zoom-in" data-aos-offset="200">
                                 <main>
                                     <a href="#" class="tilter tilter--1">
                                         <figure class="tilter__figure">
@@ -705,12 +705,12 @@
     </div>
 
     <!-- Start About Info -->
-    <div class="about_info">
-        <div class="container">
-            <div class="row">
+    <div class="about_info pt-5">
+        <div class="container pt-4">
+            <h4 class="title_head">آكثر عن موقعنا</h4>
+            <div class="row mt-5 pt-5">
                 <div class="col-sm-6 col-12">
                     <div class="info_site">
-                        <h4 class="title_head">آكثر عن موقعنا</h4>
                         <div class="up_site">
                             <img src="img/shape/love.png" class="love">
                             <div class="block_item">
@@ -746,12 +746,12 @@
     </div>
 
     <!-- Start Download App -->
-    <div class="download_app">
+    <div class="download_app py-5 my-5">
         <div class="container">
             <h4 class="title_head">تحميل التطبيق</h4>
             <div class="row">
                 <div class="col-md-5 col-xs-12">
-                    <div class="frame_app">
+                    <div class="frame_app" data-aos="zoom-in" data-aos-offset="200">
                         <img src="img/app/Apple-X.png" class="Apple">
                         <img src="img/app/splash.png" class="splash">
                         <img src="img/shape/bg_shaps.png" class="bg_shaps">
@@ -759,8 +759,14 @@
                     </div>
                 </div>
                 <div class="col-md-7 col-xs-12">
-                    <div class="Info_Download">
-                        <p class="font_normal">هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. </p>
+                    <div class="Info_Download" data-aos="zoom-in" data-aos-offset="200">
+                        <p class="font_normal">
+                            هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. 
+                            هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. 
+                            هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. 
+                            هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. 
+                            هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. هذا النص هو مثال لنص آخر .. 
+                        </p>
                         <div class="btn_download">
                             <a href="" class="btn_button border_pink color_pink shadow_pink_opacity margin_top_40"><i class="fab fa-apple"></i> Google Play</a>
                             <a href="" class="btn_button border_black color_black shadow_gray margin_top_40"><i class="fab fa-android"></i> App Store</a>

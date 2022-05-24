@@ -28,7 +28,12 @@ body {
 }
 
 .info_text {
-    padding-left: 150px;
+    padding-left: 105px;
+}
+
+
+.block-head::after{
+    right: 0;
 }
 
 
