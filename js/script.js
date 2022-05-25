@@ -19,6 +19,11 @@ $(window).on('load', function () {
 
 $(document).ready(function () {
 
-    
+    // Click Open Nav Mobile
+    $(document).on("click", ".click-nav",function() {
+        $(".handle").toggleClass("closed bgDefault");
+        $(".Nav-Mobile").toggleClass("back");
+        
+    });
 
 });
