@@ -118,13 +118,13 @@ button{
     transition: 1s;
 }
 
+/* Select */
+
 .selector {
     position: relative;
     margin: auto;
     display: inline-block;
 }
-
-/* Select */
 
 .selector select{
     width: 100%;
