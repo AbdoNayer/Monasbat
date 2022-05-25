@@ -89,7 +89,7 @@ button{
 }
 
 .btn-button:hover::before, .btn-button:hover::after {
-    display: none;
+    opacity: 0;
 }
 
 .btn-button:hover {
